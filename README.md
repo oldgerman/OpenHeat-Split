@@ -5,6 +5,8 @@
 > 该项目还包括热床外壳安装等~~一条龙服务~~
 >
 > <span style="color:rgb(255, 50, 50);">免责声明：不恰当的安装可能危及您的生命安全，请确保有一定的强电安全知识！</span>
+>
+> 本资料为压缩包版，不保证为最新版，最新版请访问[Github仓库](https://github.com/oldgerman/OpenHeat-Split)
 
 ![](Images/初号机1.jpg)
 
