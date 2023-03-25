@@ -149,7 +149,7 @@
 
 1. 热床工作温度？
    
-   <span style="color:rgb(255, 50, 50);">请特别注意</span>铜箔与铝板之间的绝缘层在<span style="color:rgb(255, 50, 50);">260度</span>以上会失效，建议<span style="color:rgb(255, 50, 50);">工作温度不超过240度</span>，建议黑色阻焊，或无阻焊
+   <span style="color:rgb(255, 50, 50);">请特别注意</span>铜箔与铝板之间的绝缘层在<span style="color:rgb(255, 50, 50);">260度</span>以上会失效，建议<span style="color:rgb(255, 50, 50);">工作温度不超过240度</span>（当前仓库源码最高温为240度），建议黑色阻焊，或无阻焊
    
 2. 热床阻焊层变黄？
 

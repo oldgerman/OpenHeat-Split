@@ -625,7 +625,7 @@ void Update_OLED_Light_Level(void)
 void Update_OLED_Flip(void)
 {
     // ToDo fix u8g2 oled-12880 flip error
-//    Disp.setFlipMode(ScreenFlip);
+   Disp.setFlipMode(ScreenFlip);
     if (Menu_System_State) PopMsg_ScreenFlip();
 }
 
