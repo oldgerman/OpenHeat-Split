@@ -63,7 +63,7 @@
 #define SCREEN_FONT_ROW 4
 
 //温度限制
-#define TipMaxTemp 240
+#define TipMaxTemp 260
 #define TipMinTemp 0
 
 //烙铁安装移除事件计时器冷却时间：防止事件临界值抖动

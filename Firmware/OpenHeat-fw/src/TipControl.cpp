@@ -9,10 +9,12 @@ enum MOS_Type
     NMOS = 1
 };
 //PWM
-uint8_t PWM_Freq = 2000;    // 频率
+double PWM_Freq = 50000;    // uint8_t类型写错了，改为double类型
+                            // 将频率从默认的2000改为50000，开关电源模块电感没有吱吱响声了
+                            // 备注：PC817 光耦带宽 81KHz
 uint8_t PWM1_Channel = 0;    // 通道
 uint8_t PWM2_Channel = 0;    // 通道
-uint8_t PWM_Resolution = 8;   // 分辨率
+uint8_t PWM_Resolution = 8;  // 分辨率
 //基础温控
 uint8_t MyMOS = NMOS;
 uint8_t POWER = 0;
@@ -166,7 +168,12 @@ void SetPOWER(uint8_t power)
     PWMOutput(PWM);
 }
 
-float ADC_PID_Cycle_List[3] = {1000, 1000, 1000};
+float ADC_PID_Cycle_List[3] = {
+    1000, // 与目标温度差 大于150度时的PID计算周期
+    1000, // 与目标温度差 大于50度小于150度时的PID计算周期
+    1000  // 与目标温度差 小于50度时的PID计算周期
+};
+
 //温度控制循环
 void TemperatureControlLoop(MAX6675 *thermocouple)
 {

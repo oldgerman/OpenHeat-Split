@@ -126,9 +126,9 @@ struct Slide_Bar Slide_space[] = {
     {(float*) &MenuScroll,            0, SCREEN_ROW / 16, 1}, //自适应菜单滚动范围
     
     {(float*) &ReadyTemp,              0, 100,  5},
-    {(float*) &BootTemp,              0, 240,  5},
-    {(float*) &SleepTemp,             0, 240,  5},
-    {(float*) &BoostTemp,             0,   150,  1},
+    {(float*) &BootTemp,              0, 170,  5},
+    {(float*) &SleepTemp,             0, 100,  5},
+    {(float*) &BoostTemp,             0,   260,  1},
 
     {(float*) &ShutdownTime,          0,   60,   1},
     {(float*) &SleepTime,             0,   60,   1},

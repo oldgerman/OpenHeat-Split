@@ -217,7 +217,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60106",
+                "PLATFORMIO=60111",
                 "ARDUINO_ESP32_PICO",
                 "ESP32",
                 "ESP_PLATFORM",
@@ -230,8 +230,8 @@
                 "ARDUINO_BOARD=\"ESP32 Pico Kit\"",
                 ""
             ],
-            "cStandard": "c99",
-            "cppStandard": "c++11",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++11",
             "compilerPath": "C:/Users/PSA/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc.exe",
             "compilerArgs": [
                 "-mlongcalls",
